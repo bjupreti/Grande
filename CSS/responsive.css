@@ -1,0 +1,43 @@
+@media only screen and (max-width: 768px) {
+    #logo img{
+        margin: 0 auto;
+    }
+    #top-bar-information, #top-bar-information1{
+    	text-align: center;
+    }
+    .widget-header {
+    	font-size: 16px;
+    }
+    .widget-header + a{
+		font-size: 13px;
+    }
+    .sitemap-title, .sitemap-title-subtitle {
+    	text-align: center;
+    }
+
+}
+@media only screen and (max-width: 480px) {
+    #logo img{
+        margin: 0 auto;
+    }
+    #top-bar-information a {
+    	display: inline-block;
+    }
+	.sitemap {
+    	text-align: center;
+    }
+}
+@media only screen and (max-width: 990px) {
+    #logo img{
+        margin: 0 auto;
+    }
+    .service-column {
+    	margin-bottom: 10px;
+    }
+    .icon-text {
+    	margin: 0 0 10px 0;
+    }
+    .footer-text {
+    	text-align: center;
+    }
+}
